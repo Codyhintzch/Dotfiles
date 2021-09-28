@@ -1,0 +1,27 @@
+#!/bin/bash
+# personal functions to be accesible from the shell
+
+#menu() {
+#	clear
+#	printf "\t\t\t\e[1;31mTest Menu Options\e[0m\n\n"
+#
+#	printf "\t\e[1;32m1.\e[0m Do operation one\n"
+#	printf "\t\e[1;32m2.\e[0m Do operation two\n"
+#	printf "\t\e[1;32m3.\e[0m Do operation three\n"
+#	printf "\t\e[1;32m4.\e[0m Do operation four\n"
+#	printf "\t\e[1;32m0.\e[0m Quit\n"
+#
+#	printf "\n\t\t\e[34mEnter Option:\e[0m "
+#	read -n 1 menu_choice
+#
+#	printf "\n\t\t\tChoice was $menu_choice\n\n"
+#}
+
+
+
+
+flasher () { while true; do printf \\e[?5h; sleep 0.1; printf \\e[?5l; read -s -n1 -t1 && break; done; }
+
+
+
+

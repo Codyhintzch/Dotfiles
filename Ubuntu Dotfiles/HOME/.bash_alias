@@ -1,0 +1,14 @@
+# fix sudo command color output (because sudo is now an alias ending in space it checks for other aliases
+alias sudo='sudo '
+
+
+# FUN / POINTLESS ALIASES
+
+# display a rainbow colored cow giving fortune cookie advice
+alias rainbowcow="fortune | coway | lolcat"
+
+# run ASCII star wars movie
+alias asciiwars="telnet towel.blinkenlights.nl"
+
+
+
