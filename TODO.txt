@@ -1,0 +1,8 @@
+TODO
+* Add colors for vim
+* add fonts
+* write auto install script
+
+ADD CUSTOM BINARIES
+* add terminal color reference script
+
